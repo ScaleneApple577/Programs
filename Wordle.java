@@ -11,7 +11,7 @@ public class Wordle {
     	boolean validWord = false;
         ArrayList<String> allWords = new ArrayList<String>();
         try {
-            File myObj = new File("/Users/reenalarora/Downloads/wordle.txt");
+            File myObj = new File("wordle.txt");
             Scanner myReader = new Scanner(myObj);
             while (myReader.hasNextLine())
             {
